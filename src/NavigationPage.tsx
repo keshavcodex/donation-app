@@ -1,16 +1,16 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
-import { Button } from 'react-native-paper';
+import * as React from 'react';
+import {View, Text} from 'react-native';
+import Home from './screens/Home';
+import Account from './screens/Account';
 
 const NavigationPage = () => {
   return (
     <View>
-      <Text>NavigationPage</Text>
-      <Button icon="camera">open camera</Button>
+        <Home />
+        <Account />
+      <Text>navigation main page</Text>
     </View>
   );
 };
 
 export default NavigationPage;
-
-const styles = StyleSheet.create({});
